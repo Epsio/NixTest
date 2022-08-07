@@ -2,19 +2,19 @@ body { margin: 0; }
    #sidebar, #content { position: absolute; } 
    #sidebar, #content { overflow: auto; }
    #header {
-    height: 80px; /* Высота слоя */
+    height: 80px;
     background: lightgrey; border-bottom: 2px;
    }
    #header h1 { padding: 20px; margin: 0; }
 
    #sidebar { 
     width: 150px; background: grey; border-right: 1px;
-    top: 82px; /* Расстояние от верхнего края */ 
-    bottom: 0; /* Расстояние снизу  */
+    top: 82px; 
+    bottom: 0; 
    }
    #content {
-    top: 82px; /* Расстояние от верхнего края */
-    left: 15%; /* Расстояние от левого края */ 
+    top: 82px; 
+    left: 15%;
     bottom: 0; right: 0;
    }
 
