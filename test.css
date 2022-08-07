@@ -1,0 +1,37 @@
+body { margin: 0; }
+   #sidebar, #content { position: absolute; } 
+   #sidebar, #content { overflow: auto; }
+   #header {
+    height: 80px; /* Высота слоя */
+    background: lightgrey; border-bottom: 2px;
+   }
+   #header h1 { padding: 20px; margin: 0; }
+
+   #sidebar { 
+    width: 150px; background: grey; border-right: 1px;
+    top: 82px; /* Расстояние от верхнего края */ 
+    bottom: 0; /* Расстояние снизу  */
+   }
+   #content {
+    top: 82px; /* Расстояние от верхнего края */
+    left: 15%; /* Расстояние от левого края */ 
+    bottom: 0; right: 0;
+   }
+
+table {
+  position: absolute;
+  border: 1px solid #595959;
+  width: 50%;
+  border-collapse:collapse;
+  border-spacing:0;
+  bottom: 50%;
+}
+
+ul {
+  position: absolute;
+  border: 1px solid #595959;
+  width: 50%;
+  border-collapse:collapse;
+  border-spacing:0;
+  top: 4%;
+}
